@@ -17,6 +17,20 @@
     <servlet-name>addNoteclassServlet</servlet-name>
     <servlet-class>com.api.servlet.addNoteclassServlet</servlet-class>
   </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>groupServlet</servlet-name>
+    <servlet-class>com.api.servlet.groupServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>notearticleServlet</servlet-name>
+    <servlet-class>com.api.servlet.notearticleServlet</servlet-class>
+  </servlet>
+
+
 
 
   <servlet-mapping>
@@ -26,6 +40,14 @@
   <servlet-mapping>
     <servlet-name>addNoteclassServlet</servlet-name>
     <url-pattern>/servlet/addNoteclassServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>groupServlet</servlet-name>
+    <url-pattern>/servlet/groupServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>notearticleServlet</servlet-name>
+    <url-pattern>/servlet/notearticleServlet</url-pattern>
   </servlet-mapping>
   
   <welcome-file-list>

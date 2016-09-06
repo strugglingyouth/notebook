@@ -8,7 +8,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import xupt.se.ttms.model.user;
+import com.api.model.user;
+
 
 public class RegisterServlet extends HttpServlet {
 	user us=new user();
@@ -33,7 +34,7 @@ public class RegisterServlet extends HttpServlet {
 		us.setPassswd(request.getParameter(/*"passwd"*/"123"));
 }
 public user GetUser(){
-	us.setId(/*request.getParameter("user")*/23);
+	us.setId(/*request.getParameter("user")*/1);
 	us.setUser(/*request.getParameter("user")*/"w");
 	us.setEmail(/*request.getParameter("email")*/"123");
 	us.setTel(/*request.getParameter("tel")*/"123");

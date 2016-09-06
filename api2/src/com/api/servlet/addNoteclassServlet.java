@@ -8,8 +8,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import xupt.se.ttms.model.noteclass;
-import xupt.se.ttms.model.user;
+import com.api.model.noteclass;
+import com.api.model.user;
+
 
 public class addNoteclassServlet extends HttpServlet {
 
@@ -26,7 +27,7 @@ public class addNoteclassServlet extends HttpServlet {
 		ns.setClassname(/*request.getParameter("user")*/"w");
 		ns.setClassdesc(/*request.getParameter("email")*/"123");
 		ns.setArticlenum(/*request.getParameter("tel")*/123);
-		ns.setUserid("23");
+		ns.setUserid(2);
 		
 		return ns;
 			
